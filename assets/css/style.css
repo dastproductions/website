@@ -333,7 +333,7 @@ a.learn-more {
 
 
 .banner-bg {
-    background: url("../img/header-1.jpg");
+    background: url("/assets/img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -527,21 +527,21 @@ HOME SLIDER
 }
 
 .slide-1 {
-    background: url("../img/header-1.jpg");
+    background: url("/assets/img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 
 .slide-2 {
-    background: url("../img/header-1.jpg");
+    background: url("/assets/img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 
 .slide-3 {
-    background: url("../img/header-1.jpg");
+    background: url("/assets/img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -578,14 +578,14 @@ HOME SLIDER
 }
 
 .banner-bg-2 {
-    background: url("../img/banner/home-04.jpg");
+    background: url("/assets/img/banner/home-04.jpg");
     position: relative;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 .banner-bg {
-    background: url("../img/header-2.jpg");
+    background: url("/assets/img/header-2.jpg");
     position: relative;
     -webkit-background-size: cover;
     background-size: cover;
@@ -702,7 +702,7 @@ FEATURE SECTION
     min-height: 500px;
     width: 30%;
     height: 100%;
-    background: url("../img/drone-parts.jpg") center center;
+    background: url("/assets/img/drone-parts.jpg") center center;
     background-size: cover;
     z-index: 999;
 }
@@ -828,7 +828,7 @@ FEATURE SECTION
 }
 
 /*----------------------
- VIDEO SECTION 
+ VIDEO SECTION
 -----------------------------*/
 
 .bg-feature {
@@ -1137,7 +1137,7 @@ button:hover {
     width: 60%;
     min-height: 400px;
     height: 100%;
-    background: url("../img/app/featured-article.png")no-repeat;
+    background: url("/assets/img/app/featured-article.png")no-repeat;
 }
 
 
@@ -1217,7 +1217,7 @@ a:hover {
 
 @media (max-width: 767.98px) {
     .banner-bg {
-        background: url("../img/beautiful-beach.JPG");
+        background: url("/assets/img/beautiful-beach.JPG");
         -webkit-background-size: cover;
         background-size: cover;
         position: relative;
