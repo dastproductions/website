@@ -333,7 +333,7 @@ a.learn-more {
 
 
 .banner-bg {
-    background: url("../img/bg/banner-1.jpg");
+    background: url("../img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -527,21 +527,21 @@ HOME SLIDER
 }
 
 .slide-1 {
-    background: url("../img/bg/slider-1.jpg");
+    background: url("../img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 
 .slide-2 {
-    background: url("../img/bg/slider-2.jpg");
+    background: url("../img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 
 .slide-3 {
-    background: url("../img/bg/slider-3.jpg");
+    background: url("../img/header-1.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -585,7 +585,7 @@ HOME SLIDER
 }
 
 .banner-bg {
-    background: url("../img/banner/video-bg.jpg");
+    background: url("../img/header-2.jpg");
     position: relative;
     -webkit-background-size: cover;
     background-size: cover;
@@ -702,7 +702,8 @@ FEATURE SECTION
     min-height: 500px;
     width: 30%;
     height: 100%;
-    background: url("../img/about/item-01.jpg") center center;
+    background: url("../img/drone-parts.jpg") center center;
+    background-size: cover;
     z-index: 999;
 }
 
@@ -1198,5 +1199,27 @@ a:hover {
 
 .navbar-brand {
     max-width: 76px;
-    margin-right: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+.icofont {
+    width: 27px;
+    display: block;
+}
+
+.footer-logo .img-fluid {
+    max-width: 76px;
+    vertical-align: baseline;
+}
+
+@media (max-width: 767.98px) {
+    .banner-bg {
+        background: url("../img/beautiful-beach.JPG");
+        -webkit-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
 }
