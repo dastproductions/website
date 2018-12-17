@@ -333,7 +333,7 @@ a.learn-more {
 
 
 .banner-bg {
-    background: url("/assets/img/header-1.jpg");
+    background: url("/assets/img/beautiful-beach.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -1215,11 +1215,9 @@ a:hover {
     vertical-align: baseline;
 }
 
-@media (max-width: 767.98px) {
-    .banner-bg {
-        background: url("/assets/img/beautiful-beach.jpg");
-        -webkit-background-size: cover;
-        background-size: cover;
-        position: relative;
-    }
+.banner-bg {
+    background: url("/assets/img/beautiful-beach.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
