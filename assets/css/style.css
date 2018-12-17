@@ -1217,7 +1217,7 @@ a:hover {
 
 @media (max-width: 767.98px) {
     .banner-bg {
-        background: url("/assets/img/beautiful-beach.JPG");
+        background: url("/assets/img/beautiful-beach.jpg");
         -webkit-background-size: cover;
         background-size: cover;
         position: relative;
